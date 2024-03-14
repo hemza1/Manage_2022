@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+    --c-text-primary: #282a32;
+    --c-text-secondary: #686b87;
+    --c-text-action: #404089;
+    --c-accent-primary: #434ce8;
+    --c-border-primary: #eff1f6;
+    --c-background-primary: #fff;
+    --c-background-secondary: #fdfcff;
+    --c-background-tertiary: #ecf3fe;
+    --c-background-quaternary: #e9ecf4;
+}
+
+body{
+    font-family: Inter;
+}
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 0.5;
+  }
+  .hr-text:before {
+    content: "";
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  .hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    color: #818078;
+    background-color: #fcfcfa;
+  }
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+.content-main {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    flex-grow: 1;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+@media (min-width: 600px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+   }
+   input {
+    width: 100%;
+}
+}
+@media (min-width: 1200px) {
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+   }
+   input {
+    width: 100%;
+}
+}
+.card {
+    background-color: var(--c-background-primary);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.05), 0 5px 15px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.5rem 1.25rem 1rem 1.25rem;
+}
+.card-header div {
+    display: flex;
+    align-items: center;
+}
+.card-header div span {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-header div span img {
+    max-height: 100%;
+    border-radius: 30%;
+}
+.card-header div h3 {
+    margin-left: 0.75rem;
+    font-weight: 500;
+}
+
+
+.card-body {
+    padding: 1rem 1.25rem;
+    font-size: 0.875rem;
+}
+.card-footer {
+    margin-top: auto;
+    padding: 1rem 1.25rem;
+    text-align: center;
+    align-items: center;
+    
+    border-top: 1px solid var(--c-border-primary);
+}
+.card-footer a {
+    color: var(--c-text-action);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+
+formLine {
+ 
+}
+
+
+h1{
+    font-size: 30px;
+}
+.btn {
+    width: 35Px;
+    
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+.services h4{
+    margin: 30px;
+}
+.modal h4 {
+    margin: 10px;
+}
+.dialog{
+    background-color: #434ce8;
+    font-family: 'Courier New', Courier, monospace;
+}
+#box input{
+  width:100%;
+  height:35px;
+  margin-top:5px;
+  margin-bottom: 20px;
+  border:1px solid #999;
+  border-radius:3px;
+  padding:5px;
+}
+select{
+    width: 450px;
+    padding: 8px 12px !important;
+}
+#box input[type=submit]{
+ 
+  
+}
+#box textarea{
+  width:100%;
+  height:80px;
+  margin-top:5px;
+  border-radius:3px;
+  padding:5px;
+  resize:none;
+}
+#box span{
+  color:red
+}
+.successMessage{
+    background-color: #7acc7d;
+    border: #2b5a2d 1px solid;
+    padding: 5px 9px;
+    color: #262b26;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.errorMessage{
+    background-color: #e64141;
+    border: #da1414 1px solid;
+    padding: 5px 10px;
+    color: #fdf7f7;
+    border-radius: 4px;
+}
+.info{
+    font-size: 0.9em;
+    color: #d67262;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+
+
+.image{
+  width: 40px;
+}
