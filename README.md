@@ -29,5 +29,5 @@ Voici les étapes pour exécuter le projet localement :
 
 ## À Propos de energieDin
 
-energieDin est une agence de création de site web et Marketing Digital située à Agadir.
+EnergieDin est une agence de création de site web et Marketing Digital située à Agadir.
 
