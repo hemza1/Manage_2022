@@ -1,38 +1,33 @@
-Login and Register Form
-====================================
+# Projet Manage - Mise en Relation Client-Agence (Stage de Fin d'Année 2022)
 
-A login and signup form using HTML, PHP, and MySQL. This form allows users to register and login. 
-All information is stored in a MySQL database. After successful login the user is redirected to their dashboard.
-I enjoy making software so much! Please, if you see any issues make them known!
+Ce dépôt GitHub contient les sources de l'application web "Manage" de mise en relation de clients et d'agences digitales, développée dans le cadre du stage de fin d'année 2022 chez energieDin. L'objectif principal de ce projet était de créer une plateforme permettant aux clients de trouver des agences digitales correspondant à leurs besoins, en prenant en compte des critères tels que la localisation, le budget et d'autres préférences.
 
-Documentation
-===============
-https://nateduhamell.com/github-project-login-sign-up-form/
+## Fonctionnalités
 
-Features
-===============
-* stores passwords in DB as hashes
-* modern and minimalistic design
-* easy logout via logout.php
-* designed for security
+- **Création de Profils**: Les clients ont la possibilité de créer leur profil sur la plateforme, fournissant ainsi toutes les informations nécessaires pour trouver l'agence idéale.
+- **Recherche Avancée**: Les clients peuvent rechercher des agences digitales en fonction de différents critères, tels que leur localisation, leur spécialité et leur fourchette de prix.
+- **Création de Profils Agences**: Les agences digitales peuvent également créer leur profil sur la plateforme, fournissant des détails sur leurs services, leur expertise et leur portefeuille de clients.
+- **Mise en Relation**: Une fois qu'un client a trouvé une agence qui correspond à ses besoins, la plateforme facilite la mise en relation entre les deux parties, favorisant ainsi la collaboration.
 
-Making a secure Page
-=====================
-To make a secure page add the contents from "auth.php" to the top of any .php page. This will force the user to login before they can see your page.
+## Technologies Utilisées
 
-Install Images
-===============
-Update the db.php File Details as shown Below:
+- **Frontend**: HTML, CSS, JavaScript (JQUERY)
+- **Backend**: PHP
+- **Base de Données**: MySQL
 
-<a href="https://i.imgur.com/YK3mpAM.jpg" target="_blank"><img style="padding-left:5%;" src="https://i.imgur.com/YK3mpAM.jpg" alt="Login/Register Form Install Instructions" width="100%"></img></a>
+## Comment exécuter le projet
 
-Preview
-========
-Login Form: https://files.nateduhamell.com/test/login-signup-form-master/login.php
+Voici les étapes pour exécuter le projet localement :
 
-Registration Form: https://files.nateduhamell.com/test/login-signup-form-master/registration.php
+1. Assurez-vous d'avoir PHP et MySQL installés sur votre machine.
+2. Clonez ce dépôt GitHub sur votre ordinateur.
+3. Importez la base de données fournie dans le dossier `/database` dans votre système de gestion de base de données MySQL.
+4. Configurez les informations de connexion à la base de données dans le fichier de configuration PHP approprié (`db.php`).
+5. Démarrez votre serveur PHP local.
+6. Accédez au répertoire du projet dans votre navigateur web.
+7. Vous devriez maintenant être en mesure d'accéder à l'application web localement et de commencer à l'utiliser.
 
-License
-==========
-This software is under an MIT License. Which allows full use to edit, distribute, or sell this code.
-See the "LICENSE" file for more information!
+## À Propos de energieDin
+
+energieDin est une agence de création de site web et Marketing Digital située à Agadir.
+
